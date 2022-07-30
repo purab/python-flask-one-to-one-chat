@@ -14,7 +14,7 @@ def handle_message(message):
 
 @app.route('/')
 def index():
-    render_template("index.html")
+    return render_template("index.html")
 
 @app.route('/test')
 def hello():    
